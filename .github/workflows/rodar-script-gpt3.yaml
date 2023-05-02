@@ -3,8 +3,6 @@
 on:
   workflow_dispatch:
     branches: [main, master]
-  schedule:
-    - cron: "*/5 * * * *"
 
 name: run-r-script
 
